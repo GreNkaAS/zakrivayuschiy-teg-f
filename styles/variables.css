@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-color: #00cc14;
+  --background-alternative-color: #000;
+  --button__text-color: #00cc14;
+  --disc-icon-color: #00cc14;
+  --heart-animation-color: #ff0000;
+  --background-page-color: repeating-linear-gradient(
+      180deg,
+      #000 0px 2px,
+      rgba(0, 0, 0, 0) 2px 4px
+    ),
+    repeating-linear-gradient(90deg, #000 0px 2px, rgba(0, 0, 0, 0) 2px 4px),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
+   
+
+  --main-font: "PressStart2p";
+  --alternative-font: "Inter-Variable";
+  --themes-font-weight-title: 785;
+  --themes-font-weight-content: 465;
+}
