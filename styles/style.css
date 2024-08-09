@@ -26,6 +26,7 @@
   background-attachment: fixed;
   overflow: auto;
   font-family: var(--main-font);
+  font-variation-settings: "wght" var(--themes-font-weight-content);
 }
 
 .header {
@@ -136,7 +137,7 @@
   padding: 5px 10px;
   font-family: var(--alternative-font);
   font-size: 18px;
-  font-weight: var(--themes-font-weight-title);
+  font-variation-settings: "wght" var(--themes-font-weight-title);
 }
 
 .post-image-cover {
@@ -175,7 +176,7 @@
   font-size: 18px;
   line-height: 117%;
   font-family: var(--alternative-font);
-  font-weight: var(--themes-font-weight-content);
+  font-variation-settings: "wght" var(--themes-font-weight-content);
 }
 
 .post-buttons {
@@ -196,7 +197,6 @@
   border: 2px solid var(--main-color);
   cursor: pointer;
   transition: box-shadow 0.3s ease;
-  transition: all 0.35s;
 }
 
 .button:focus-visible {
@@ -322,7 +322,7 @@ dialog {
   filter: grayscale(50%);
 }
 .image-blur {
-  filter: blur(3px);
+  filter: blur(2px);
 }
 .image-contrast {
   filter: contrast(120%);
