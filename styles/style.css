@@ -315,6 +315,32 @@ dialog {
   height: 39px;
 }
 
+.image-sepia {
+  filter: sepia(50%);
+}
+.image-grayscale {
+  filter: grayscale(50%);
+}
+.image-blur {
+  filter: blur(3px);
+}
+.image-contrast {
+  filter: contrast(120%);
+}
+.image-brightness {
+  filter: brightness(110%);
+}
+.image-opacity {
+  filter: opacity(0.8);
+}
+
+.image-saturate {
+  filter: saturate(200%);
+}
+.image-shadow {
+  filter: drop-shadow(10px 10px 5px black);
+}
+
 @media (min-width: 376px) {
   .footer-save-button {
     flex-direction: row;
