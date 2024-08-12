@@ -3,7 +3,7 @@
 :root {
   --main-color: #00cc14;
   --background-alternative-color: #000;
-  --button__text-color: #00cc14;
+  --button-text-color: #00cc14;
   --disc-icon-color: #00cc14;
   --heart-animation-color: #ff0000;
   --background-page-color: repeating-linear-gradient(
@@ -15,8 +15,8 @@
     linear-gradient(180deg, #007f0c 0%, #004306 100%);
    
 
-  --main-font: "PressStart2p";
-  --alternative-font: "Inter-Variable";
-  --themes-font-weight-title: 785;
-  --themes-font-weight-content: 465;
+  --main-font: "PressStart2P", cursive, fantasy;
+  --alternative-font: "Inter-Variable", Arial, Helvetica, sans-serif;
+  --themes-font-weight-title: 700;
+  --themes-font-weight-content: 400;
 }

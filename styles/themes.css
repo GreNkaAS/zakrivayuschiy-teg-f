@@ -8,7 +8,7 @@
 :root.theme-light {
   --main-color: #000;
   --background-alternative-color: #fff;
-  --button__text-color: #fff;
+  --button-text-color: #fff;
   --disc-icon-color: #fff;
   --background-page-color: repeating-linear-gradient(
       180deg,
@@ -23,7 +23,7 @@
   :root {
     --main-color: #000;
     --background-alternative-color: #fff;
-    --button__text-color: #fff;
+    --button-text-color: #fff;
     --disc-icon-color: #fff;
     --background-page-color: repeating-linear-gradient(
         180deg,
@@ -42,7 +42,7 @@
 :root.theme-dark {
   --main-color: #00cc14;
   --background-alternative-color: #000;
-  --button__text-color: #00cc14;
+  --button-text-color: #00cc14;
   --disc-icon-color: #00cc14;
   --background-page-color: repeating-linear-gradient(
       180deg,
@@ -57,7 +57,7 @@
   :root {
     --main-color: #00cc14;
     --background-alternative-color: #000;
-    --button__text-color: #00cc14;
+    --button-text-color: #00cc14;
     --disc-icon-color: #00cc14;
     --background-page-color: repeating-linear-gradient(
         180deg,
