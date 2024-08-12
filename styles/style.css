@@ -208,6 +208,7 @@
 .like-icon {
   z-index: 0;
   cursor: pointer;
+  transform-origin: center;
 }
 
 .button {
@@ -264,6 +265,9 @@
 }
 
 .card__icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   outline: none;
   border: none;
   background: transparent;
