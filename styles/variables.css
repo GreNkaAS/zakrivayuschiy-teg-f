@@ -3,6 +3,7 @@
 :root {
   --main-color: #00cc14;
   --background-alternative-color: #000;
+  --background-backdrop-color: #000;
   --button-text-color: #00cc14;
   --disc-icon-color: #00cc14;
   --heart-animation-color: #ff0000;
@@ -17,6 +18,6 @@
 
   --main-font: "PressStart2P", cursive, fantasy;
   --alternative-font: "Inter-Variable", Arial, Helvetica, sans-serif;
-  --themes-font-weight-title: 700;
-  --themes-font-weight-content: 400;
+  --themes-font-weight-title: 785;
+  --themes-font-weight-content: 465;
 }
